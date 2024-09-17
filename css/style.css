@@ -1,0 +1,427 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    background-image: linear-gradient(to right, #FFF7E7 , #FFF1DC);
+}
+/* navbar start here */
+
+nav {
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  }
+.navbar-expand-lg {
+    background-image: linear-gradient(to right, #ffffff75 , #ffffff15);
+    padding-top: 11px;
+    padding-bottom: 11px;
+}
+.nav-item a {
+    color: #817382;
+    font-size: 16px;
+    font-weight: 700px;
+    font-family: "Raleway", sans-serif;
+    margin-left: 18px;
+}
+.nav-item .act {
+    color: #F95C19;
+    font-size: 16px;
+    font-weight: 800;
+    font-family: "Raleway", sans-serif;
+}
+.nav-item .ser {
+    background-color: #FFEDC9;
+    color: #FFAF0F;
+    border-radius: 5px;
+    margin-left: 34px;
+}
+.ser img {
+    padding-left: 7px;
+    padding-right: 6px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+}
+.nav-item .ct-btn {
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #FFE4D9;
+    color: #F95C19;
+    padding: 12px 20px 13px 20px;
+    border-radius: 5px;
+    margin-left: 12px;
+}
+/* navbar end here */
+
+/* banner start here */
+#banner {
+    padding-bottom: 168px;
+}
+.headline {
+    padding-top: 251px;
+}
+.headline h1 span {
+    font-weight: 800;
+}
+.headline h1{
+    color: #261134;
+    font-weight: 400;
+    font-family: "Raleway", sans-serif;
+    padding-bottom: 5px;
+}
+.headline h5 {
+    padding-right: 100px;
+    color: #4D4D4D;
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    padding-bottom: 39px;
+}
+.headline .bnr-btn button{
+    border: none;
+    padding: 13px 20px;
+    background-color: #F95C19;
+    border-radius: 5px;
+}
+.headline .bnr-btn a{
+    color: #FFFFFF;
+    font-family: "Raleway", sans-serif;
+    font-family: "Oxanium", sans-serif;
+    font-weight: 400;
+    font-weight: 700;
+    font-size: 20px;
+}
+.headline .bnr-btn i{
+    color: #FFFFFF;
+    font-weight: 400;
+    font-weight: 700;
+    font-size: 20px;
+}
+.img-b {
+    padding-top: 175px;
+}
+/* banner end here */
+
+
+/* SERVICES start here */
+#services {
+    padding-bottom: 172px;
+}
+.headlines {
+    padding-bottom: 87px;
+}
+.headlines h2 {
+    font-family: "Oxanium", sans-serif;
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #F95C19;
+}
+.headlines h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 39.06px;
+    font-weight: 800;
+    color: #11111D;
+}
+.head {
+    background-color: #FFFFFF;
+    padding-top: 67px;
+    padding-bottom: 49px;
+    padding-right: 56.62px;
+    padding-left: 54.57px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px 5px rgba(0,0,0,.05);
+    backdrop-filter: blur(18px);
+
+}
+.head h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #464558;
+    padding-top: 29px;
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0;
+}
+.head h6 {
+    color: #7B7A8B;
+    padding-bottom: 32px;
+}
+.head ul {
+    padding-left: 16px;
+}
+.head ul li h6 {
+    padding-bottom: 4px;
+    margin: 0;
+}
+.head ul li {
+    color: #F95C19;
+}
+.imgs img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn-b {
+    padding-top: 35px;
+}
+.btn-b button {
+    border: 1px solid #F95C19;
+    border-radius: 5px;
+    padding: 12px 96.41px;
+    color: #F95C19;
+    font-family: "Oxanium", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+.btn-b button:hover {
+    border: none;
+    color: #FFFFFF;
+    background-color: #F95C19;
+}
+
+.bug h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 800;
+    color: #464558;
+    padding-top: 21px;
+    text-align: center;
+    padding-bottom: 32px;
+    margin: 0;
+}
+/* SERVICES end here */
+
+
+
+/* fact counter start here */
+#fact {
+    padding-bottom: 162px;
+}
+
+.image-a img {
+    padding-left: 19px;
+}
+.headline-a h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #F95C19;
+    line-height: 110%;
+    margin: 0;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    padding-left: 19px;
+}
+.headline-a h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464558;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.image-b img {
+    padding-bottom: 29px;
+}
+.headline-b h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #F95C19;
+    line-height: 110%;
+    margin: 0;
+    padding-bottom: 17px;
+}
+.headline-b h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464558;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.image-c img {
+    padding-bottom: 29px;
+}
+.headline-c h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #F95C19;
+    line-height: 110%;
+    margin: 0;
+    padding-bottom: 17px;
+}
+.headline-c h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464558;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.image-d img {
+    padding-bottom: 38px;
+}
+.headline-d h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #F95C19;
+    line-height: 110%;
+    margin: 0;
+    padding-bottom: 19px;
+}
+.headline-d h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464558;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+
+}
+
+
+.image-e img {
+    padding-bottom: 36px;
+    padding-right: 50px;
+}
+.headline-e h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 39px;
+    font-weight: 800;
+    color: #F95C19;
+    line-height: 110%;
+    margin: 0;
+    padding-bottom: 19px;
+    padding-right: 5px;
+}
+.headline-e h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #464558;
+    line-height: 120%;
+    padding: 0;
+    margin: 0;
+
+}
+
+/* fact counter end here */
+
+
+
+/* video section start here */
+.v-i {
+    background: url(../images/Rectangle-12.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    padding-top: 126px;
+    padding-bottom: 168px;
+}
+.video-bg a img {
+    padding-bottom: 18px;
+}
+.video-bg h2 {
+    font-family: "Oxanium", sans-serif;
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #F95C19;
+    padding-bottom: 28px;
+}
+.video-bg h4 {
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+/* video section end here */
+
+
+
+/* Clients start here */
+#clients {
+    padding: 176px 0 266px 0;
+}
+.headline-gg {
+}
+.headings h2 {
+    font-family: "Oxanium", sans-serif;
+    font-size: 31.25px;
+    font-weight: 700;
+    color: #F95C19;
+    padding-left: 141px;
+    margin-bottom: 14px;
+}
+.headings h5 {
+    font-family: "Raleway", sans-serif;
+    font-size: 39.06px;
+    font-weight: 800;
+    color: #261134;
+    padding-left: 39px;
+    margin: 0;
+}
+.headings {
+    padding-top: 22px;
+}
+.b-headline {
+    padding-bottom: 90px;
+    padding-left: 50px;
+}
+
+.nd-headline {
+    padding: 39px 29px 34px 38px;
+    background-color: #FFFFFF;
+    box-shadow: 2px 2px 10px 5px #00147715;
+    border-radius: 16px;
+}
+.nd-headline h4{
+    font-family: "Raleway", sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 120%;
+    color: #F95C19;
+    margin: 0;
+    padding-bottom: 13px;
+}
+.nd-headline h6{
+    font-family: "Raleway", sans-serif;
+    font-size: 15.50px;
+    font-weight: 400;
+    line-height: 145%;
+    color: #464558;
+    margin: 0;
+    padding-bottom: 29px;
+}
+.lv .hel i {
+    color: #F95C19;
+}
+.dddd h6 {
+    padding-right: 13px;
+    margin: 0;
+}
+.dddd h6 span {
+    font-weight: 700;
+}
+/* Clients end here */
